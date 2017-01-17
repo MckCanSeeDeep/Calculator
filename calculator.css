@@ -4,7 +4,7 @@
 /* Calculator Box */
 .box {
 	background-color: #e5e7ea;
-	height: 375px;
+	height: 360px;
 	width: 250px;
 	border-radius: 10px;
 	position: relative;
@@ -79,3 +79,10 @@
 	border-top: black 2px solid;
 	border-bottom: 2px #6f6f6f solid;
 }
+
+/*other buttons
+
+<input type="button" value="x^2" class="button function" onClick="">
+				<input type="button" value="x^y" class="button function" onClick="">
+				<input type="button" value="√" class="button function" onClick="Math.sqrt()">
+				<input type="button" value="Rand" class="button function" onClick="v('Math.random()')"> */
